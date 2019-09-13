@@ -1,0 +1,103 @@
+ /* Colors and fonts */
+
+ body {
+ 	background: #EDF6F9;
+ 	color: #004C69;
+	font-family: 'Poppins', sans-serif;
+ 	font-size: 16px;
+	font-weight: 300;
+ }
+
+ h1 {
+ 	color: #004C69;
+ 	font-weight: 800;
+	font-size: 32px;
+ }
+
+ h2 {
+ 	color: #429EC1;
+ 	font-weight: 600;
+	font-size: 24px;
+ }
+
+a {
+	text-decoration: none;
+}
+
+
+/* Custom design w/ class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+	@media (max-width: 960px) {
+	  /* For a screen < 960px, this CSS will be read */
+	  .container {
+	    width: 700px;
+	  }
+	}
+	@media (max-width: 720px) {
+	  /* For a screen < 720px, this CSS will be read */
+	  .container {
+	    width: 500px;
+	  }
+	}
+	@media (max-width: 540px) {
+	  /* For a screen < 540px, this CSS will be read */
+	  .container {
+	    width: 400px;
+	  }
+	}
+	
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #d9ecf3;
+	color: #429EC1;
+	padding: 11px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: #004C69;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 20px;
+	color: #429EC1;
+}
+
+.list-inline i:hover {
+	font-size: 20px;
+	color: #004C69;
+}
+
+/* Custom design w/ id */
+
+#introduction p {
+	margin-bottom: 30px;
+}
